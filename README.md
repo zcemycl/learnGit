@@ -25,6 +25,13 @@ is used with a different goal in mind: to update your current HEAD branch with t
 really only downloads new data from a remote repository - but it doesn't integrate any of this new data into your working files. Fetch is great for getting a fresh view on all the things that happened in a remote repository.
 1. `git fetch origin`.
 
+##### - Routine to commit new changes
+1. Always rememeber to fetch and pull. `git fetch origin` and `git pull origin master`.
+2. Change new existing files.
+3. Git add changes `git add .`. 
+4. Git commit message `git commit -m "messages"`. 
+5. Git push changes `git push origin master`.
+
 ##### - Create branch
 
 ##### - Merge branch

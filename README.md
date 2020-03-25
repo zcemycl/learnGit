@@ -17,6 +17,14 @@ a. If rejected, `git fetch`, `git rebase --continue` or `git rebase --abort`, `g
 1. Change directory to the target folder. 
 2. Command `rm -rf .git*`.
 
+##### - Pull changes
+is used with a different goal in mind: to update your current HEAD branch with the latest changes from the remote server. This means that pull not only downloads new data; it also directly integrates it into your current working copy files. 
+1. `git pull origin master`.
+
+##### - Fetch changes
+really only downloads new data from a remote repository - but it doesn't integrate any of this new data into your working files. Fetch is great for getting a fresh view on all the things that happened in a remote repository.
+1. `git fetch origin`.
+
 ##### - Create branch
 
 ##### - Merge branch

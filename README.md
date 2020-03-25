@@ -21,3 +21,11 @@ a. If rejected, `git fetch`, `git rebase --continue` or `git rebase --abort`, `g
 
 
 #### GitLab
+##### - Create ssh key
+ref to https://docs.gitlab.com/ee/ssh/, 
+1. Open terminal and command `ssh-keygen -t ed25519 -C "yui.leung.15@ucl.ac.uk"`. Enter if there is no ssh key pair already. Double-enter to skip setting password. 
+2. Copy public ssh key `xclip -sel clip < ~/.ssh/id_ed25519.pub`.
+3. Go to GitLab account and find **Settings**. 
+4. Navigate to **SSH Keys** at the left. Enter the key from the clipboard. 
+5. Press **Add Key**.
+6. To test the set-up, command `ssh -T git@gitlab.com`.

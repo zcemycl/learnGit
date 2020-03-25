@@ -33,6 +33,13 @@ really only downloads new data from a remote repository - but it doesn't integra
 5. Git push changes `git push origin master`.
 
 ##### - Create branch
+1. Make sure master is up-to-date by `git pull origin master`.
+2. Create branch on your local machine. `git checkout -b [branch name]` e.g. 'leobranch1'
+3. Push the branch on github. `git push origin [branch name]`
+
+##### - List all branches
+1. `git branch -a`
+
 
 ##### - Merge branch
 

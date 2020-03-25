@@ -13,6 +13,10 @@ This repo acts as notes for git functions, and should be suitable for Linux begi
 8. Command `git push origin master`. Enter your username (e.g. zcemyl) and password. \
 a. If rejected, `git fetch`, `git rebase --continue` or `git rebase --abort`, `git pull --rebase origin master ` and `git push origin master`. **This is due to the fact that, your folder does not have README.md from repo, so it is the latest version of the repo, then you cannot push since not yet pull.**
 
+##### - Remove the link from repo to the folder
+1. Change directory to the target folder. 
+2. Command `rm -rf .git*`.
+
 ##### - Create branch
 
 ##### - Merge branch

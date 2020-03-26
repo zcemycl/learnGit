@@ -76,6 +76,9 @@ really only downloads new data from a remote repository - but it doesn't integra
 ##### - Read changes 
 1. `git diff`
 
+##### - Change git remote url
+1. `git remote set-url origin https://github.com/zcemycl/learnGit.git`.
+
 ##### - Revert changes
 
 

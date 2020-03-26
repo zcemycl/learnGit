@@ -84,7 +84,10 @@ really only downloads new data from a remote repository - but it doesn't integra
 1. `git remote set-url origin https://github.com/zcemycl/learnGit.git`.
 
 ##### - Revert changes
-
+1. Navigate to repo page. 
+2. Press commits and copy the commit id.
+3. Revert by `git revert [commit id]`.
+4. Push changes by `git push origin [branch name]`.
 
 #### GitLab
 ##### - Create ssh key

@@ -73,6 +73,9 @@ really only downloads new data from a remote repository - but it doesn't integra
 2. Delete branch in your local. Make sure you are on another branch first, e.g. `git checkout master`. Then run `git branch -d leobranch1`.
 
 
+##### - Read changes 
+1. `git diff`
+
 ##### - Revert changes
 
 

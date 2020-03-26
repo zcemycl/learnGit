@@ -1,9 +1,9 @@
 ### Background
 This repo acts as notes for git functions, and should be suitable for Linux beginners with no git command line experience.
  
-Working in a dev team is not the same as working alone. During development stages, many changes are made by different developers, which may lead to conflicts between versions of the same project. To encounter this problem, developers use different version control softwares to keep track of the changes, including, git (will discuss here), p4v, etc. Typically, they create a repository (repo) and its main branch (master). Every developer in the same repo then copies master as branches to the local, and makes changes on the branches. To udpate master, they merge changes from different branches into master. The advantages of using version control software are, the developers can keep track of what changes others have made, see the difference between versions, revert the changes, etc. 
+Working in a dev team is not the same as working alone. During development stages, many changes are made by different developers, which may lead to conflicts between versions of the same project. To encounter this problem, developers use different version control softwares to keep track of the changes, including, git (will discuss here), p4v, etc. Typically, they create a repository (repo) and its main branch (master). Every developer in the same repo then copies master as branches to the local, and makes changes on the branches. To update master, they merge changes from different branches into master. The advantages of using version control software are, the developers can keep track of what changes others have made, see the difference between versions, revert the changes, etc. 
 
-This repo describes how I practise using git. 
+This repo describes how I practise using git. It describes, how to initialize your repo, connect your local to git server, make changes, edit branches, pull changes from branches, etc.
 
 #### GitHub
 ##### - Initialize a repo and commit the first changes 
@@ -80,7 +80,7 @@ really only downloads new data from a remote repository - but it doesn't integra
 ##### - Read changes 
 1. `git diff`
 
-##### - Change git remote url
+##### - Change git remote url (Use this to change repo name)
 1. `git remote set-url origin https://github.com/zcemycl/learnGit.git`.
 
 ##### - Revert changes

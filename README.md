@@ -53,7 +53,10 @@ really only downloads new data from a remote repository - but it doesn't integra
 ##### - Show git status
 1. Command `git status` to show anything to commit and which branch git is on.
 
-##### - Merge branch
+##### - Pull updates from master to branch
+1. Command `git status` to make sure you're on the branch.
+2. Command `git pull origin master` to pull updates.
+3. Commands `git add . && git commit && git push origin leobranch1`. 
 
 ##### - Revert changes
 

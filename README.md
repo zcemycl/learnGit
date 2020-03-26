@@ -40,6 +40,18 @@ really only downloads new data from a remote repository - but it doesn't integra
 ##### - List all branches
 1. `git branch -a`
 
+##### - Commit changes for branch
+1. Change the files. 
+2. Add changes `git add .`.
+3. Commit changes `git commit -m "messages"`.
+4. Push changes `git push origin leobranch1`.
+
+##### - Delete remote in the local
+1. Command `git remote -v` to show the remote list.
+2. Remove the target remove via `git remote rm [remote name]`, for example `git remote rm origin`.
+
+##### - Show git status
+1. Command `git status` to show anything to commit and which branch git is on.
 
 ##### - Merge branch
 

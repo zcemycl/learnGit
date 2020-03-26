@@ -50,6 +50,9 @@ really only downloads new data from a remote repository - but it doesn't integra
 1. Command `git remote -v` to show the remote list.
 2. Remove the target remove via `git remote rm [remote name]`, for example `git remote rm origin`.
 
+##### - Show git status
+1. Command `git status` to show anything to commit and which branch git is on.
+
 ##### - Merge branch
 
 ##### - Revert changes

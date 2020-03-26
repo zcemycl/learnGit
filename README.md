@@ -58,6 +58,21 @@ really only downloads new data from a remote repository - but it doesn't integra
 2. Command `git pull origin master` to pull updates.
 3. Commands `git add . && git commit && git push origin leobranch1`. 
 
+##### - Switch branch your local on
+1. Command `git checkout master` or `git checkout leobranch`.
+2. Command `git status` to check which branch you are on.
+
+##### - Merge two branches
+1. Command `git checkout [branch to merge]`. e.g. merge branch into master, `git checkout master`
+2. Command `git merge [branch being merged]`. e.g. `git merge leobranch1`.
+3. Command `git push origin master`. 
+
+
+##### - Delete branch
+1. Delete your branch in git via `git push -d origin [target branch]`, e.g. `git push -d origin leobranch1`.
+2. Delete branch in your local. Make sure you are on another branch first, e.g. `git checkout master`. Then run `git branch -d leobranch1`.
+
+
 ##### - Revert changes
 
 

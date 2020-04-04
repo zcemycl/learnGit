@@ -89,6 +89,10 @@ really only downloads new data from a remote repository - but it doesn't integra
 3. Revert by `git revert [commit id]`.
 4. Push changes by `git push origin [branch name]`.
 
+##### - Resolve problems when stopping long `git add .`
+Error: Another git process seems to be running in this repo.
+1. `rm -f .git/index.lock`
+
 #### GitLab
 ##### - Create ssh key
 ref to https://docs.gitlab.com/ee/ssh/, 

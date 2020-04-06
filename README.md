@@ -93,6 +93,11 @@ really only downloads new data from a remote repository - but it doesn't integra
 Error: Another git process seems to be running in this repo.
 1. `rm -f .git/index.lock`
 
+##### - Pull request
+
+##### - Code review
+
+
 #### GitLab
 ##### - Create ssh key
 ref to https://docs.gitlab.com/ee/ssh/, 

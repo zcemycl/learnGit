@@ -1,3 +1,4 @@
+Lastest Modified Date: 19/01/2021
 ### Background
 This repo acts as notes for git functions, and should be suitable for Linux beginners with no git command line experience.
  
